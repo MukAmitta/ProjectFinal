@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amitta.androidproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity" > //อยากให้หน้าใดปรากฏหน้าแรกกำหนดตรงนี้
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> //เป็นชุดคำสั่งที่ใช้ในการกรอง เพื่อกำหนดว่าให้ Activity ใดมาปรากฏเป็นหน้าแรก
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MemberForm"
+            android:label="@string/title_activity_member"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Member"
+            android:label="@string/title_activity_member1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResultGrade"
+            android:label="@string/title_activity_result_grade"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_subject"
+            android:label="@string/title_activity_add_subject"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

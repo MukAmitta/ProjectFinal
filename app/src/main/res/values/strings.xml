@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">GPA PSU TRANG</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_member">Member</string>
+    <string name="check_name">กรุณากรอกชื่อ - นามสกุล</string>
+    <string name="check_faculty">กรุณากรอกสาขา</string>
+    <string name="check_year">กรุณากรอกชั้นปี</string>
+    <string name="check_term">กรุณากรอกภาคการศึกษา/เทอม</string>
+    <string name="check_password">กรุณากรอกรหัสผ่านให้ครบ 4 หลัก</string>
+    <string name="check_password1">กรุณาตรวจสอบรหัสผ่านใหม่อีกครั้ง</string>
+
+    <!--string name="spinner_title">สาขา</string-->
+
+    <string-array name="Faculty_array">
+        <item>สาขา</item>
+        <item>สาขาการบัญชี</item>
+        <item>สาขาระบบสารสนเทศทางการบัญชี</item>
+        <item>สาขาการจัดการสารสนเทศและคอมพิวเตอร์</item>
+        <item>สาขาการจัดการพาณิชย์อิเล็กทรอนิกส์</item>
+        <item>สาขาการประกันภัยและจัดการความเสี่ยง</item>
+        <item>สาขาการจัดการการท่องเที่ยว</item>
+        <item>สาขาการตลาด</item>
+        <item>สาขาการจัดการรัฐกิจและวิสาหกิจ</item>
+        <item>สาขาภาษาอังกฤษธุรกิจ</item>
+        <item>สาขาศิลปะการแสดงและการจัดการ</item>
+    </string-array>
+
+    <string-array name="Year_array">
+        <item>ชั้นปี</item>
+        <item>ชั้นปีที่ 1</item>
+        <item>ชั้นปีที่ 2</item>
+        <item>ชั้นปีที่ 3</item>
+        <item>ชั้นปีที่ 4</item>
+    </string-array>
+
+    <string-array name="Term_array">
+        <item>ภาคการศึกษา/เทอม</item>
+        <item>เทอม 1</item>
+        <item>เทอม 2</item>
+        <item>เทอม 3</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>ปีการศึกษาที่ 1</item>
+        <item>ปีการศึกษาที่ 2</item>
+        <item>ปีการศึกษาที่ 3</item>
+        <item>ปีการศึกษาที่ 4</item>
+    </string-array>
+
+    <string-array name="term_array">
+        <item>ภาคเรียนที่ 1</item>
+        <item>ภาคเรียนที่ 2</item>
+        <item>ภาคเรียนที่ 3</item>
+    </string-array>
+
+    <string-array name="subjectICM_array">
+        <item>Java</item>
+        <item>System Analysis</item>
+        <item>Mobile Programing</item>
+        <item>Human Resource Management</item>
+        <item>Software Engineering</item>
+        <item>Pre-Project</item>
+    </string-array>
+    <string-array name="subjectICM_credit_array">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+
+    </string-array>
+
+
+    <string name="title_activity_member2">Member2</string>
+    <string name="title_activity_member1">Member1</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_result_grade">ResultGrade</string>
+    <string name="title_activity_add_subject">Add_subject</string>
+</resources>
